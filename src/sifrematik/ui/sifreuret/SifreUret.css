@@ -1,0 +1,9 @@
+.slider .axis .axis-tick-mark {
+    -fx-fill: null;
+    -fx-stroke: red;
+    -fx-stroke: linear-gradient(to right, red, orange, green);
+}
+
+.slider .axis { 
+    -fx-tick-label-fill:  gray;
+}

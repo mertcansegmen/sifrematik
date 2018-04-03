@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="176.0" prefWidth="486.0" spacing="13.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Kolay: Küçük harf ve rakamlar">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <Label layoutX="10.0" layoutY="10.0" text="Orta: Küçük harf, büyük harf ve rakamlar">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <Label layoutX="10.0" layoutY="27.0" text="Zor: Küçük harf, büyük harf, rakam ve noktalama işaretleri">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="50.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>

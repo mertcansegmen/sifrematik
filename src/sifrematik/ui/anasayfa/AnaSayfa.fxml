@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="371.0" prefWidth="500.0" spacing="15.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sifrematik.ui.anasayfa.AnaSayfaController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Görseller/sifrematiklogo.png" />
+         </image>
+      </ImageView>
+      <Label text="Şifrematiğe Hoşgeldiniz..." wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label text="Şifrematik sosyal medya, e-posta gibi hesaplarınızın giriş bilgilerini unutmamak için kullanabileceğiniz basit bir masaüstü uygulamasıdır." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</VBox>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="rootPane" maxHeight="400.0" maxWidth="680.0" minHeight="400.0" minWidth="680.0" prefHeight="400.0" prefWidth="680.0" stylesheets="@AnaMenu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sifrematik.ui.menu.AnaMenuController">
+   <top>
+      <MenuBar fx:id="menuBar" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Dosya">
+            <items>
+              <MenuItem fx:id="cik" mnemonicParsing="false" onAction="#cikisYap" text="Çık" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Yardım">
+            <items>
+              <MenuItem fx:id="hakkinda" mnemonicParsing="false" onAction="#hakkindaPenceresi" text="Şifrematik Hakkında" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="anaSayfaBtn" contentDisplay="TOP" mnemonicParsing="false" onAction="#anaSayfa" prefHeight="540.0" prefWidth="100.0" text="Anasayfa">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Görseller/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="hesapEkleBtn" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#hesapEkle" prefHeight="540.0" prefWidth="100.0" text="Hesap Ekle">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Görseller/Register-512.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="hesaplarimBtn" contentDisplay="TOP" mnemonicParsing="false" onAction="#hesaplarim" prefHeight="540.0" prefWidth="100.0" text="Hesaplarım">
+               <graphic>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Görseller/user-group-man-man.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button contentDisplay="TOP" layoutX="10.0" layoutY="260.0" mnemonicParsing="false" onAction="#sifreUret" prefHeight="540.0" prefWidth="100.0" text="Şifre Üret">
+               <graphic>
+                  <ImageView fitHeight="61.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Görseller/createpassword.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Görseller/sifrematiklogo.png" />
+               </image>
+            </ImageView>
+            <Label text="Şifrematiğe Hoşgeldiniz..." wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label text="Şifrematik sosyal medya, e-posta gibi hesaplarınızın giriş bilgilerini unutmamak için kullanabileceğiniz basit bir masaüstü uygulamasıdır." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

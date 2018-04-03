@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sifrematik.ui.hakkinda.HakkindaController">
+   <children>
+      <Label stylesheets="@hakkinda.css" text="Geliştiriciler">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Line endX="400.0" opacity="0.12" startX="-100.0" />
+      <Label text="Mertcan Seğmen">
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="27.0" text="Onur Güler">
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="50.0" stylesheets="@hakkinda.css" text="Sürüm Bilgisi">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Label>
+      <Line endX="400.0" opacity="0.12" startX="-100.0" />
+      <Label layoutX="70.0" layoutY="135.0" text="Sürüm: 2.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin>
+      </Label>
+      <Label fx:id="isletimSistemi" layoutX="70.0" layoutY="135.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+   </padding>
+</VBox>
